@@ -3,7 +3,7 @@ var navMenu = new Array();
 navMenu[0] = new Array('&lt;/home>', '#index', 'onclick="pageHome()"');
 navMenu[1] = new Array('&lt;/about>', '#about', 'onclick="pageAbout()"');
 navMenu[2] = new Array('&lt;/blog>',  'www.anwarweb.my.id/', 'target="_blank"');
-navMenu[3] = new Array('&lt;/core>', '//google.com/', 'target="_blank"');
+navMenu[3] = new Array('&lt;/core>', 'https://xbabysharkx.github.io/core', 'target="_blank"');
 
 for (var i = 0; i < navMenu.length; i++) {
     var link = "<a "+ navMenu[i][2] +"href=\"" + navMenu[i][1] + "\">" + navMenu[i][0] + "</a> ";
