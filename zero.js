@@ -1,6 +1,6 @@
 var navMenu = new Array();
-navMenu[0] = new Array('&lt;/home>', '#index', 'onclick="pageHome()"');
-navMenu[1] = new Array('&lt;/here>', '/here', 'onclick="pageAbout()"');
+navMenu[0] = new Array('&lt;/home>', '', 'onclick="pageHome()"');
+navMenu[1] = new Array('&lt;/here>', '/here', 'target="_blank"');
 navMenu[2] = new Array('&lt;/blog>',  '/blog', 'target="_blank"');
 navMenu[3] = new Array('&lt;/core>', '/core', 'target="_blank"');
 
